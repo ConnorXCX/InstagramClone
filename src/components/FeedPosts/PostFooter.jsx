@@ -14,7 +14,7 @@ import {
   UnlikeLogo,
 } from "../../assets/constants";
 
-const PostFooter = () => {
+const PostFooter = ({ username }) => {
   const [liked, setLiked] = useState(false);
 
   const [likes, setLikes] = useState(1000);
@@ -45,7 +45,7 @@ const PostFooter = () => {
       </Text>
 
       <Text fontSize={"sm"} fontWeight={700}>
-        asaprogrammer{" "}
+        {username}{" "}
         <Text as={"span"} fontWeight={400}>
           Feeling Good
         </Text>

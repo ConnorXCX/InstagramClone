@@ -66,6 +66,7 @@ const PostFooter = ({ username }) => {
             variant={"flushed"}
             placeholder={"Add a comment..."}
             fontSize={14}
+            name={"comment"}
           />
           <InputRightElement>
             <Button

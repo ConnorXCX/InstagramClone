@@ -2,6 +2,10 @@
 
 Deployed Site: [ConnorXCX.github.io/InstagramClone](https://ConnorXCX.github.io/InstagramClone/)
 
+References:
+
+1. [Build and Deploy Your Own Instagram App With React and Firebase | Full Tutorial](https://youtu.be/bQtAg7AFFrY?si=RySa5ewFsjNSb-2o)
+
 Commands to Run Locally:
 
 1. `npm install`

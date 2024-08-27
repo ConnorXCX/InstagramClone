@@ -1,6 +1,7 @@
 # Instagram Clone
 
-Deployed Site: [ConnorXCX.github.io/InstagramClone](https://ConnorXCX.github.io/InstagramClone/)
+<!--
+Deployed Site: [ConnorXCX.github.io/InstagramClone](https://ConnorXCX.github.io/InstagramClone/) -->
 
 References:
 
@@ -11,7 +12,7 @@ Commands to Run Locally:
 1. `npm install`
 2. `npm run dev`
 
-How to Configure GitHub Pages Dependency:
+<!-- How to Configure GitHub Pages Dependency:
 
 1. Add `base` parameter to `vite.config.js`
 2. Add `homepage` parameter to `package.json`
@@ -21,4 +22,4 @@ How to Configure GitHub Pages Dependency:
 
 Command to Deploy to GitHub Pages:
 
-1. `npm run deploy`
+1. `npm run deploy` -->

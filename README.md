@@ -1,8 +1,20 @@
-# React + Vite
+# Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployed Site: [ConnorXCX.github.io/InstagramClone](https://ConnorXCX.github.io/InstagramClone/)
 
-Currently, two official plugins are available:
+Commands to Run Locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. `npm install`
+2. `npm run dev`
+
+How to Configure GitHub Pages Dependency:
+
+1. Add `base` parameter to `vite.config.js`
+2. Add `homepage` parameter to `package.json`
+3. Add `predeploy` parameter with `npm run build` under `scripts` in package.json
+4. Add `deploy` parameter with `gh-pages -d dist` under `scripts` in package.json
+5. `npm install gh-pages --save-dev`
+
+Command to Deploy to GitHub Pages:
+
+1. `npm run deploy`

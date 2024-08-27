@@ -12,10 +12,11 @@ import { useEffect, useState } from "react";
 const FeedPosts = () => {
   const [isLoading, setIsLoading] = useState(true);
 
+  // Purely for demo purposes to show skeletons.
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
